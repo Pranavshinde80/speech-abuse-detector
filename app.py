@@ -3,7 +3,7 @@ from detector import SpeechAbuseDetector
 
 class FlaskApp:
     def __init__(self):
-        # Initialize Flask app
+        # Initialize Flask appp
         self.app = Flask(__name__)
         self.detector = SpeechAbuseDetector()
 
